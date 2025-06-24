@@ -13,3 +13,15 @@ Before using any Open WeatherMap API endpoints you need to create an account and
 4. Copy and store the key securely.
 
 **“Your api key is required for authentication and must be included in all your requests". If the API key is missing or invalid, the request will fail with a 401 Unauthorized error**
+
+**Sample request format**:
+
+```http
+https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY
+```
+
+### Base URL
+
+All requests are made to:  
+[`https://api.openweathermap.org/data/2.5/`](https://api.openweathermap.org/data/2.5/)
+
