@@ -1,22 +1,22 @@
-# 🌦️ Get the Current Weather for Any City
+# Get the Current Weather for Any City
 
 Get instant weather updates for any city worldwide. Each request provides complete **current weather** conditions: temperature, humidity, wind speed, and weather descriptions.
 
 ---
 
-## 🔗 Endpoint Summary
+## Endpoint Summary
 
 **HTTP Method:** `GET`  
 **URL:** `https://api.openweathermap.org/data/2.5/weather`
 
 ---
 
-## 🔧 Required Parameters
+## Required Parameters
 
 | Parameter | Type   | Required | Example      | Description                                                      |
 |-----------|--------|----------|--------------|------------------------------------------------------------------|
-| `q`       | string | ✅ Yes   | `Lagos`      | City name (can include country code, e.g. `Lagos,NG`)            |
-| `appid`   | string | ✅ Yes   | `abc123`     | Your personal API key                                            |
+| `q`       | string | Yes   | `Lagos`      | City name (can include country code, e.g. `Lagos,NG`)            |
+| `appid`   | string | Yes   | `abc123`     | Your personal API key                                            |
 | `units`   | string | No       | `metric`     | Use `metric` (°C), `imperial` (°F), or leave blank for Kelvin    |
 | `lang`    | string | No       | `en`         | Language of the weather description                              |
 
@@ -30,7 +30,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Lagos&units=metric&appid=Y
 
 
 
-## 📥 Sample Response (Shortened)
+## Sample Response (Shortened)
 
 ```json
 {
@@ -51,7 +51,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Lagos&units=metric&appid=Y
 ```
 ---
 
-## 🧾 Key Fields Explained
+## Key Fields Explained
  
 | Field                | Meaning                                      |
 |----------------------|----------------------------------------------|
@@ -64,7 +64,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Lagos&units=metric&appid=Y
 
 
 ---
-## ⚠️ Common Errors
+## Common Errors
 
 | Code | Message        | Cause                                         |
 |------|----------------|-----------------------------------------------|
@@ -74,7 +74,7 @@ GET https://api.openweathermap.org/data/2.5/weather?q=Lagos&units=metric&appid=Y
 
 ---
 
-💡 Pro Tip
+Pro Tip
 
 To get temperature in Celsius, add units=metric to your request.
 To change language, add lang=fr for French, lang=es for Spanish. 
