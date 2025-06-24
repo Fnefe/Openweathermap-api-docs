@@ -56,6 +56,30 @@ You can customize the language of weather descriptions using the `lang` query pa
 
 ---
 
+## Unit Preferences
+
+OpenWeatherMap allows you to customize the unit of measurement for temperature, wind speed, and more using the `units` query parameter.
+
+---
+
+### Supported Unit Systems
+
+| Unit System | Query Value | Temperature    | Wind Speed   |
+|-------------|-------------|----------------|--------------|
+| Standard    | `standard`  | Kelvin (K)     | meter/sec    |
+| Metric      | `metric`    | Celsius (°C)   | meter/sec    |
+| Imperial    | `imperial`  | Fahrenheit (°F)| miles/hour   |
+
+---
+
+> Example:  
+> `https://api.openweathermap.org/data/2.5/weather?q=Abuja&units=metric&appid=YOUR_API_KEY`  
+> Returns temperature in **Celsius** and wind speed in **meters per second**.
+
+> Tip: Combine `units=metric` with `lang=fr` for fully localized responses.
+
+---
+
 ## Use Cases
 
 | Use Case                                      | Endpoint(s) Used             |
