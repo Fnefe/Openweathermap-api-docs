@@ -26,7 +26,6 @@
 |----------------------------------------------|------------------------------|
 | Displaying current weather in a dashboard     | `current weather`            |
 | Forecasting for travel or events              | `5-day / 3-hour forecast`     |
-|
 | Mobile weather apps or browser extensions     | All 2                        |
 | Classroom or bootcamp API training exercises  | `current` + `forecast`       |
 
