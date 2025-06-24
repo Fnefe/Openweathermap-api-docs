@@ -1,6 +1,6 @@
 # Openweathermap-api-docs
-Technical Writing Portfolio Sample
-# 🌍 OpenWeatherMap API Documentation (Sample Project)
+
+# OpenWeatherMap API Documentation (Sample Project)
 
 Welcome! This is a technical writing portfolio project that documents two key endpoints of the **OpenWeatherMap API**:
 
@@ -58,8 +58,8 @@ OpenWeatherMap Portfolio Docs/
 - **Markor** – Markdown writing tool used for drafting all documentation
 - **OpenWeatherMap API** – Free tier used for endpoint exploration
 - **Postman** – For testing and visualizing API responses
-- **GitHub** – For publishing and sharing the project as a writing sample
-
+- **GitHub** – For publishing and sharing the project as a writing sample. 
+[View this documentation on GitHub](https://github.com/Fnefe/Openweathermap-api-docs)
 ---
 
 ## About Me
