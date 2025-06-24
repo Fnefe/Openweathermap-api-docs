@@ -19,6 +19,29 @@
   Be mindful of rate limits. Avoid polling the API too often unless you’re on a plan that supports it.
 
 ---
+
+## Unit Preferences
+
+Customize the unit of measurement for temperature, wind speed, and more using the `units` query parameter.
+
+---
+
+### Supported Unit Systems
+
+| Unit System | Query Value | Temperature    | Wind Speed   |
+|-------------|-------------|----------------|--------------|
+| Standard    | `standard`  | Kelvin (K)     | meter/sec    |
+| Metric      | `metric`    | Celsius (°C)   | meter/sec    |
+| Imperial    | `imperial`  | Fahrenheit (°F)| miles/hour   |
+
+
+> Example:  
+> `https://api.openweathermap.org/data/2.5/weather?q=Abuja&units=metric&appid=YOUR_API_KEY`  
+> Returns temperature in **Celsius** and wind speed in **meters per second**.
+
+> Tip: Combine `units=metric` with `lang=fr` for fully localized responses.
+
+---
 ## Supported Languages
 
 You can customize the language of weather descriptions using the `lang` query parameter. Below are the accepted values:
@@ -53,29 +76,6 @@ You can customize the language of weather descriptions using the `lang` query pa
 > Example usage:  
 > `https://api.openweathermap.org/data/2.5/weather?q=Lagos&lang=fr&appid=YOUR_API_KEY`  
 > Returns weather description in **French**
-
----
-
-## Unit Preferences
-
-Customize the unit of measurement for temperature, wind speed, and more using the `units` query parameter.
-
----
-
-### Supported Unit Systems
-
-| Unit System | Query Value | Temperature    | Wind Speed   |
-|-------------|-------------|----------------|--------------|
-| Standard    | `standard`  | Kelvin (K)     | meter/sec    |
-| Metric      | `metric`    | Celsius (°C)   | meter/sec    |
-| Imperial    | `imperial`  | Fahrenheit (°F)| miles/hour   |
-
-
-> Example:  
-> `https://api.openweathermap.org/data/2.5/weather?q=Abuja&units=metric&appid=YOUR_API_KEY`  
-> Returns temperature in **Celsius** and wind speed in **meters per second**.
-
-> Tip: Combine `units=metric` with `lang=fr` for fully localized responses.
 
 ---
 
