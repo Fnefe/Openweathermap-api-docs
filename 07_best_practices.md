@@ -1,7 +1,7 @@
-# 🌟 Best Practices & Use Cases
+# Best Practices & Use Cases
 
 
-## ✅ Best Practices
+##  Best Practices
 
 - **Secure Your API Key**  
   Never expose your API key in public code or client-side applications. Use environment variables or a backend proxy.
@@ -20,7 +20,7 @@
 
 ---
 
-## 💡 Use Cases
+## Use Cases
 
 | Use Case                                      | Endpoint(s) Used             |
 |----------------------------------------------|------------------------------|
