@@ -12,4 +12,4 @@ Before using any Open WeatherMap API endpoints you need to create an account and
 3. You'll see a default API key listed. You can rename it or click **Generate** to create a new key.
 4. Copy and store the key securely.
 
-**Your API key is to be included in all requests. If not included, you'll receive a 401 error response.**
+**“Your api key is required for authentication and must be included in all your requests". If the API key is missing or invalid, the request will fail with a 401 Unauthorized error**
