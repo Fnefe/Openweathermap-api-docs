@@ -58,7 +58,7 @@ OpenWeatherMap Portfolio Docs/
 - **Markor** – Markdown writing tool used for drafting all documentation
 - **OpenWeatherMap API** – Free tier used for endpoint exploration
 - **Postman** – For testing and visualizing API responses
-- **GitHub** – (Optional) For publishing and sharing the project as a writing sample
+- **GitHub** – For publishing and sharing the project as a writing sample
 
 ---
 
