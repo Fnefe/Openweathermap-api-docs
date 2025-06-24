@@ -19,6 +19,42 @@
   Be mindful of rate limits. Avoid polling the API too often unless you’re on a plan that supports it.
 
 ---
+## Supported Languages
+
+You can customize the language of weather descriptions using the `lang` query parameter. Below are the accepted values:
+
+| Language             | Code(s)     | Language             | Code(s)     |
+|----------------------|-------------|----------------------|-------------|
+| Albanian             | `sq`        | Polish               | `pl`        |
+| Afrikaans            | `af`        | Portuguese           | `pt`        |
+| Arabic               | `ar`        | Portuguese (Brazil)  | `pt_br`     |
+| Azerbaijani          | `az`        | Romanian             | `ro`        |
+| Basque               | `eu`        | Russian              | `ru`        |
+| Belarusian           | `be`        | Serbian              | `sr`        |
+| Bulgarian            | `bg`        | Slovak               | `sk`        |
+| Catalan              | `ca`        | Slovenian            | `sl`        |
+| Chinese (Simplified) | `zh_cn`     | Spanish              | `sp`, `es`  |
+| Chinese (Traditional)| `zh_tw`     | Swedish              | `sv`, `se`  |
+| Croatian             | `hr`        | Thai                 | `th`        |
+| Czech                | `cz`        | Turkish              | `tr`        |
+| Danish               | `da`        | Ukrainian            | `ua`, `uk`  |
+| Dutch                | `nl`        | Vietnamese           | `vi`        |
+| English              | `en`        | Zulu                 | `zu`        |
+| Finnish              | `fi`        | Hebrew               | `he`        |
+| French               | `fr`        | Hindi                | `hi`        |
+| Galician             | `gl`        | Hungarian            | `hu`        |
+| German               | `de`        | Icelandic            | `is`        |
+| Greek                | `el`        | Indonesian           | `id`        |
+| Japanese             | `ja`        | Korean               | `kr`        |
+| Kurdish (Kurmanji)   | `ku`        | Latvian              | `la`        |
+| Lithuanian           | `lt`        | Macedonian           | `mk`        |
+| Norwegian            | `no`        | Persian (Farsi)      | `fa`        |
+
+> Example usage:  
+> `https://api.openweathermap.org/data/2.5/weather?q=Lagos&lang=fr&appid=YOUR_API_KEY`  
+> Returns weather description in **French**
+
+---
 
 ## Use Cases
 
